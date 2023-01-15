@@ -266,27 +266,27 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        //pierwszeITrzecieZadanieString(scanner);
+        pierwszeITrzecieZadanieString(scanner);
 
-        //czwarteZadanieString();
+        czwarteZadanieString();
 
-        //piateZadanieString();
+        piateZadanieString();
 
-        //pierwszeZadanieIfy(scanner);
+        pierwszeZadanieIfy(scanner);
 
-        //drugieZadanieIfy(scanner);
+        drugieZadanieIfy(scanner);
 
-        //trzecieZadanieIfy(scanner);
+        trzecieZadanieIfy(scanner);
 
-        //pierwszeZadanieFor();
+        pierwszeZadanieFor();
 
-        //drugieZadanieFor();
+        drugieZadanieFor();
 
-        //trzecieZadanieFor();
+        trzecieZadanieFor();
 
-        //czwarteZadanieFor();
+        czwarteZadanieFor();
 
-        /*
+
         System.out.println("Podaj znak jakim mam narysować zadania: ");
         char znakDoZadan = scanner.next().charAt(0);
         System.out.println("KWADRAT: ");
@@ -302,13 +302,13 @@ public class Main {
         System.out.println(znakDoZadan);
         System.out.println("PIRAMIDA: ");
         piramida(znakDoZadan,rozmiarPiramdy);
-           */
+        trojkatPascala();
 
-        //piewszeWhile();
-        //drugiWhile(scanner);
-        //trzeciWhile();
-        //czwartyWhile();
-        //piatyWhile(scanner);
+        piewszeWhile();
+        drugiWhile(scanner);
+        trzeciWhile();
+        czwartyWhile();
+        piatyWhile(scanner);
         pierwszyDoWhile();
         drugiDoWhile();
         trzeciDoWhile(scanner);
