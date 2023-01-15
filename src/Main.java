@@ -246,9 +246,9 @@ public class Main {
     public static void trzeciDoWhile(Scanner scanner){
         scanner.nextLine();
         System.out.println("Napisz ile chcesz zatankowac litrow");
-        int chcicianeLitry = 0;
+        int iloscLitrow = 0;
         try{
-            chcicianeLitry = scanner.nextInt();
+            iloscLitrow = scanner.nextInt();
         }catch (Exception e){
             System.out.println("Minimalne tankujemy litr");
         }
@@ -259,7 +259,7 @@ public class Main {
         do{
             suma = ++litry * cena;
             System.out.println("Zatankowales: " + litry + "\nDo zaplaty: " + suma);
-        }while(litry < chcicianeLitry);
+        }while(litry < iloscLitrow);
     }
 
 
@@ -267,25 +267,15 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         pierwszeITrzecieZadanieString(scanner);
-
         czwarteZadanieString();
-
         piateZadanieString();
-
         pierwszeZadanieIfy(scanner);
-
         drugieZadanieIfy(scanner);
-
         trzecieZadanieIfy(scanner);
-
         pierwszeZadanieFor();
-
         drugieZadanieFor();
-
         trzecieZadanieFor();
-
         czwarteZadanieFor();
-
 
         System.out.println("Podaj znak jakim mam narysować zadania: ");
         char znakDoZadan = scanner.next().charAt(0);
@@ -303,7 +293,6 @@ public class Main {
         System.out.println("PIRAMIDA: ");
         piramida(znakDoZadan,rozmiarPiramdy);
         trojkatPascala();
-
         piewszeWhile();
         drugiWhile(scanner);
         trzeciWhile();
